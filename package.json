@@ -1,0 +1,18 @@
+{
+  "name": "Three-JS-Demo",
+  "version": "1.0.0",
+  "description": "Fun with threejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "WTFPL",
+  "devDependencies": {
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "three": "^0.84.0"
+  }
+}
