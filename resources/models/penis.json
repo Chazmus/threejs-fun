@@ -6,7 +6,7 @@
 		"gammaInput": false,
 		"gammaOutput": false,
 		"shadows": true,
-		"vr": false
+		"vr": true
 	},
 	"camera": {
 		"metadata": {

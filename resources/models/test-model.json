@@ -1,0 +1,111 @@
+{
+	"metadata": {
+		"type": "App"
+	},
+	"project": {
+		"gammaInput": false,
+		"gammaOutput": false,
+		"shadows": true,
+		"vr": false
+	},
+	"camera": {
+		"metadata": {
+			"version": 4.4,
+			"type": "Object",
+			"generator": "Object3D.toJSON"
+		},
+		"object": {
+			"uuid": "2DEE059E-2A25-45BC-ABA5-CDF96126B31E",
+			"type": "PerspectiveCamera",
+			"name": "Camera",
+			"matrix": [0.81411,0,0.580711,0,0.30097,0.855212,-0.421936,0,-0.496631,0.518279,0.696236,0,-14.898929,15.548359,20.887089,1],
+			"fov": 50,
+			"zoom": 1,
+			"near": 0.1,
+			"far": 10000,
+			"focus": 10,
+			"aspect": 1.853913,
+			"filmGauge": 35,
+			"filmOffset": 0
+		}
+	},
+	"scene": {
+		"metadata": {
+			"version": 4.4,
+			"type": "Object",
+			"generator": "Object3D.toJSON"
+		},
+		"geometries": [
+			{
+				"uuid": "17A90E94-8E69-4A45-8C83-06D173071206",
+				"type": "BoxBufferGeometry",
+				"width": 5,
+				"height": 5,
+				"depth": 5,
+				"widthSegments": 0,
+				"heightSegments": 0,
+				"depthSegments": 0
+			},
+			{
+				"uuid": "14248329-F495-4056-9D09-5741C827BA29",
+				"type": "TorusBufferGeometry",
+				"radius": 2,
+				"tube": 1,
+				"radialSegments": 32,
+				"tubularSegments": 12,
+				"arc": 6.283185
+			}],
+		"materials": [
+			{
+				"uuid": "C8AC4971-DB74-4958-96C2-572222C2575A",
+				"type": "MeshStandardMaterial",
+				"color": 16777215,
+				"roughness": 0.5,
+				"metalness": 0.5,
+				"emissive": 0,
+				"depthFunc": 3,
+				"depthTest": true,
+				"depthWrite": true,
+				"skinning": false,
+				"morphTargets": false
+			},
+			{
+				"uuid": "2F904065-D77A-4CC7-AB31-433C92BC4109",
+				"type": "MeshStandardMaterial",
+				"color": 4465067,
+				"roughness": 1,
+				"metalness": 0.5,
+				"emissive": 13055799,
+				"depthFunc": 3,
+				"depthTest": true,
+				"depthWrite": true,
+				"skinning": false,
+				"morphTargets": false
+			}],
+		"object": {
+			"uuid": "C51E123F-5F03-4FFD-BE04-E750EC61D639",
+			"type": "Scene",
+			"name": "Scene",
+			"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+			"children": [
+				{
+					"uuid": "24320C03-F6D5-43DB-970C-8364532E07EB",
+					"type": "Mesh",
+					"name": "Box 1",
+					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+					"geometry": "17A90E94-8E69-4A45-8C83-06D173071206",
+					"material": "C8AC4971-DB74-4958-96C2-572222C2575A"
+				},
+				{
+					"uuid": "2DF5FB51-C7D3-44A2-9CF0-39A68B781F5B",
+					"type": "Mesh",
+					"name": "Torus 2",
+					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,4.870701,0,1],
+					"geometry": "14248329-F495-4056-9D09-5741C827BA29",
+					"material": "2F904065-D77A-4CC7-AB31-433C92BC4109"
+				}],
+			"background": 11184810
+		}
+	},
+	"scripts": {}
+}
